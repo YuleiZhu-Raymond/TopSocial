@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +11,6 @@
   </head>
 
   <body>
-
     <!-- nav -->
     <nav>
       <div class="nav-container">
@@ -28,16 +28,87 @@
           <button class="btn btn-primary">Create</button>
           <!-- profile photo -->
           <div class="profile-photo">
-            <img alt="profile photo" loading="lazy" />
+            <img alt="profile photo" loading="lazy" src="./public/images/profile/profile_1.png"/>
           </div>
       </div>
       </div>
     </nav>
-    <!-- main -->
 
-    <div id="app">
-      Hello World
-    </div>
+
+    <!-- main -->
+      <main>
+        <div class="container">
+          <!-- main left -->
+            <div class="main-left">
+              <a class="profile" href="">
+                <div class="profile-photo">
+                  <img src="./public/images/profile/profile_1.png" alt="profile-photo" loading="lazy">
+                </div>
+                <div class="profile-description">
+                  <h5>Elden Lord</h5>
+                  <h5>@EldenRing</h5>
+                </div>
+              </a>
+              <!-- side bar -->
+              <nav class="sidebar">
+                <ul>
+                  <li>
+                    <a class="menu-item" href="#">
+                      <h3>Home</h3>
+                    </a>
+                  </li>
+                  <li>                
+                    <a class="menu-item" href="#">
+                      <h3>Explore</h3>
+                    </a> 
+                  </li>
+                  <li>                 
+                    <a class="menu-item" href="#">
+                      <h3>Notifications</h3>
+                    </a>
+                  </li>
+                  <li>                 
+                    <a class="menu-item" href="#">
+                      <h3>Messages</h3>
+                    </a>
+                  </li>
+                  <li>                 
+                    <a class="menu-item" href="#">
+                      <h3>Bookmarks</h3>
+                    </a>
+                  </li>
+                  <li>                 
+                    <a class="menu-item" href="#">
+                      <h3>Analytics</h3>
+                    </a>
+                  </li>
+                  <li>                 
+                    <a class="menu-item" href="#">
+                      <h3>Theme</h3>
+                    </a>   
+                  </li>
+                  <li>
+                    <a class="menu-item" href="#">
+                      <h3>Settings</h3>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- side button -->
+              <button class="">Create Post</button>
+            </div>
+          <!-- main middle -->
+            <div class="main-middle">
+              
+            </div>
+          <!-- main right -->
+            <div class="main-right">
+            
+            </div>
+        </div>
+      </main>
+
+
     <script type="module" src="/index.js"></script>
   </body>
 </html>
